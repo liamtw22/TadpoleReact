@@ -10,9 +10,7 @@ const Register = () => {
             Text
           </p>
           <span>Do you have an account?</span>
-          <Link to="/login">
-            <button>Login</button>
-          </Link>
+            <button>Login</button> 
         </div>
         <div className="right">
           <h1>Register</h1>

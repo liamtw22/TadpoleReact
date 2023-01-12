@@ -1,4 +1,6 @@
 import "./navbar.scss";
+import { Link } from 'react-router-dom';
+import Landing from "../../pages/landing/Landing";
 
 const Navbar = () => {
   return (
@@ -12,8 +14,8 @@ const Navbar = () => {
             <li className="fullbox">Join Now</li>
             <li className="emptybox">Sign In</li>
         </ul>
+        
     </div>
   );
 };
-
 export default Navbar;

@@ -1,4 +1,5 @@
 import "./landing.scss";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -11,12 +12,14 @@ const Landing = () => {
             </div>
             <div className="right">
                 <div className="loginbox">
-                    <h2>Sign up for a free account</h2>    
+                    <h2>Welcome to Tadpole</h2>    
                     <form>
                         <input type="text" placeholder="Username" />
                         <input type="password" placeholder="Password" />
                         <button>Login</button>
                     </form>  
+                    <h3>Don't have an account?</h3>
+                        <button>Register</button>
                 </div>  
             </div>
         </div>
