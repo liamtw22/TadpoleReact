@@ -2,12 +2,16 @@
     list-style-type: none;
     padding: 0;
     width: 100%;
-    min-width: 670px;
+    min-width: 700px;
 
+    img{
+        width:25px;
+        
+    }
     li{
         display: inline;
         float: left;
-        padding-top: 27px;
+        padding-top: 25px;
         padding-right: 1%;
         padding-left: 2%;
         color: #008037;
@@ -21,9 +25,14 @@
         font-weight: 500;
         font-size: 14pt;
         padding-top: 20px;
-        padding-left: 20px;
+        padding-left: 0px;
         padding-right: 0.5%;
         float:left;
+    }
+
+    li.logopic{
+        padding-top: 20px;
+        padding-left: 5px;
     }
 
     .emptybox {

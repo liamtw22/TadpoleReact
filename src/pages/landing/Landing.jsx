@@ -1,5 +1,7 @@
+import React from 'react'; 
 import "./landing.scss";
 import { Link } from "react-router-dom";
+import landingpic from '../../assets/LandingPic.jpg';
 
 const Landing = () => {
   return (
@@ -28,7 +30,7 @@ const Landing = () => {
                 <h1>Stand out from the crowd with videos.</h1>
             </div>
             <div className="right">
-                <img src = ""></img>
+                <img src = {landingpic}/>
             </div>
             
         </div>
