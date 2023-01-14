@@ -2,10 +2,13 @@ import React from 'react';
 import "./landing.scss";
 import { Link } from "react-router-dom";
 import landingpic from '../../assets/LandingPic.jpg';
+import Navbar from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer';
 
 const Landing = () => {
   return (
     <div className="landing">
+        <Navbar/>
         <div className="top">
             <div className="left">
                 <h1>
@@ -61,7 +64,8 @@ const Landing = () => {
                     <td>Take the next step in your professional career. Transform. Leap Forward.</td>
                 </tr>
             </table>
-        </div>  
+        </div>
+        <Footer/>  
     </div>
   );
 };
