@@ -1,4 +1,9 @@
+import React from 'react'; 
 import "./footer.scss";
+import { Link } from 'react-router-dom';
+
+import Landing from '../../pages/landing/Landing';
+import About from '../../pages/about/About';
 
 const Footer = () => {
   return (

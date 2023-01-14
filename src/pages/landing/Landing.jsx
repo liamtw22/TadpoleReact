@@ -1,9 +1,11 @@
 import React from 'react'; 
 import "./landing.scss";
 import { Link } from "react-router-dom";
-import landingpic from '../../assets/LandingPic.jpg';
+
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
+
+import landingpic from '../../assets/LandingPic.jpg';
 
 const Landing = () => {
   return (

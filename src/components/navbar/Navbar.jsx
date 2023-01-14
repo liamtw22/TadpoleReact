@@ -1,8 +1,12 @@
+import React from 'react'; 
 import "./navbar.scss";
 import { Link } from 'react-router-dom';
+
 import Landing from '../../pages/landing/Landing';
-import logo from '../../assets/Tadpole Logo no Back.png';
 import About from '../../pages/about/About';
+
+import logo from '../../assets/Tadpole Logo no Back.png';
+
 
 const Navbar = () => {
   return (

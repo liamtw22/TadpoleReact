@@ -1,7 +1,10 @@
+import React from 'react'; 
 import "./about.scss";
 import { Link } from 'react-router-dom';
+
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+
 import logo from '../../assets/Tadpole Logo no Back.png';
 import mousa from '../../assets/Mousa.jpg';
 import liam from '../../assets/Liam.jpg';
