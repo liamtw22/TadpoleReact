@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 import Landing from '../../pages/landing/Landing';
 import About from '../../pages/about/About';
+import Mission from '../../pages/mission/Mission';
 
 import logo from '../../assets/Tadpole Logo no Back.png';
 
@@ -12,7 +13,7 @@ const Footer = () => {
     <div className="footer">
       <div className="links">
         <div className="left">
-          <h3>About</h3> 
+          <h3><NavLink to="/about" style={{ textDecoration: "none", color: "#008037"}}>About</NavLink></h3> 
           <h3>Community</h3> 
           <h3>Careers</h3> 
         </div>
@@ -23,7 +24,7 @@ const Footer = () => {
         <div className="right">
           <h3>Support</h3> 
           <h3>Contact Us</h3>
-          <h3>Mission</h3>
+          <h3><NavLink to="/mission" style={{ textDecoration: "none", color: "#008037"}}>Mission</NavLink></h3>
         </div>
       </div>
       

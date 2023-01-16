@@ -7,6 +7,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 
 
+
 const Login = () => {
   return (
     <div className="login">
@@ -24,7 +25,7 @@ const Login = () => {
             <button className="register">Register</button>
         </div>
         <Footer/>
-    </div>
+    </div> 
   );
 };
 export default Login;
