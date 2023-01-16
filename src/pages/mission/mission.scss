@@ -1,0 +1,29 @@
+.mission{
+    width: 100%;
+    text-align: center;
+    .body{
+        h1{
+            font-size: 25pt;
+            font-weight: 400;
+            padding-top: 50pt;
+            color:#008037;
+            width:100%;
+        }
+
+        p{
+            text-align: center;
+            font-size: 16pt;
+            line-height: 150%;
+            padding-bottom: 2%;
+            width: 55%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 14px;
+        }
+
+        img{
+            max-width: 70%;
+        }
+    }
+}
+

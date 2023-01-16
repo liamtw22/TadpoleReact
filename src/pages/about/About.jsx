@@ -12,7 +12,7 @@ import liam from '../../assets/Liam.jpg';
 const About = () => {
   return (
     <div className="about">
-        <Navbar />
+        <Navbar/>
         <div className="top">
             <h1>About Tadpole</h1>
                 <p>Tadpole is a more casual and versatile business social media. Tadpole allows

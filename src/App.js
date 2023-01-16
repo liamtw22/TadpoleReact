@@ -11,22 +11,19 @@ import Landing from "./pages/landing/Landing";
 import Profile from "./pages/profile/Profile";
 import Register from "./pages/register/Register";
 import About from "./pages/about/About";
+import Mission from "./pages/mission/Mission";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
     <Router>
       <div>
-        {/* <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-        </ul> */}
         <Routes>
           <Route exact path='/' element={< Landing />}></Route>
           <Route exact path='/about' element={< About />}></Route>
+          <Route exact path='/mission' element={< Mission />}></Route>
+          <Route exact path='/login' element={< Login />}></Route>
+          <Route exact path='/register' element={< Register />}></Route>
         </Routes>
       </div>
     </Router>

@@ -1,45 +1,86 @@
 .footer{
-    text-align: center;
-    
-    table{
-        padding-top: 10%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
+    width: 100%;
         
-        td{
-            color: #008037;
-            text-decoration: none;
-            font-size: 8pt;
-            font-weight: 700;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        td.logo{
-            color: #008037;
-            text-decoration: none;
-            font-size: 16pt;
-            font-weight: 500;
-            padding-left: 7px;
-            padding-right: 7px;
-        }
-    }
-    hr{
-        width:72%;
-        margin-top: 20px;
-        border: 0.5px solid grey;
-        text-align: center;
+    .links{
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
         margin-left: auto;
         margin-right: auto;
-    }
+        padding-top: 5%;
+        min-width: 650px;
+        padding-bottom: 0.5%;
 
-    h3{
-        color: grey;
-        font-size: 7pt;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 5%;
-        font-weight: 500;
-      }
+        .left{
+            display: flex;
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+            width: 30%;
+            h3{
+                color: #008037;
+                text-decoration: none;
+                font-size: 8pt;
+                font-weight: 700;
+                padding-left: 7%;
+                padding-right: 7%;
+            }
+        }
+                    
+        .center{
+            display: flex;
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+
+            h3{
+                color: #008037;
+                text-decoration: none;
+                font-size: 16pt;
+                font-weight: 500;
+                padding-left: 4px;
+                
+            }
+                    
+            img{
+            max-width: 25px;
+            min-width: 25px;
+            padding-right: 4px;
+            }
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            direction: rtl;
+            margin-right: auto;
+            margin-left: auto;
+            width: 30%;
+
+            h3{
+                color: #008037;
+                text-decoration: none;
+                font-size: 8pt;
+                font-weight: 700;
+                padding-left: 7%;
+                padding-right: 7%;
+                min-width: fit-content; 
+            }    
+        }  
+    }  
+    
+
+    .tag{
+        width: 100%;
+        h3{
+            color: grey;
+            font-size: 7pt;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 5%;
+            font-weight: 500;
+        }
+    }
 }
