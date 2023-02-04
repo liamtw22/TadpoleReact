@@ -1,5 +1,6 @@
-.register{ 
+.contact{ 
     width: 100%;
+    
     h1{
         font-size: 25pt;
         font-weight: 400;
@@ -9,14 +10,15 @@
         text-align: center;
         padding-bottom: 3%;
     }
-    .loginbox{
+
+    .contactbox{
         padding: 5%;
         max-width: 500px;
         min-width: 500px;
         border: 1px solid grey;  
         margin-left: 40px;
-        max-height: 410px;
-        min-height: 410px;
+        max-height: 400px;
+        min-height: 400px;
         border-radius: 10px;
         margin-left: auto;
         margin-right: auto;
@@ -38,11 +40,24 @@
                             border-radius: 5px;
                             margin-bottom: 40px;
                         }
+
+                        input.message{
+                            width: 400px;  
+                            height: 150px;  
+                            border: none;   
+                            border: 1px solid grey;
+                            font-size: 17px; 
+                            border-radius: 5px;
+                            margin-bottom: 40px;
+
+                        }
                     }
                 }
+
                 tr.names{
                     
                     td{
+
                         input{
                             width: 190px;  
                             height: 30px;  
@@ -55,6 +70,7 @@
                     }
                 }
             }
+            
             button{
                 width: 30%;  
                 height: 30px;  
@@ -67,30 +83,6 @@
                 font-size: 17px; 
                 cursor: pointer;
             }
-        }
-        
-        h3{
-            padding-top: 60px;
-            padding-bottom: 2%;
-            margin-left: auto;
-            margin-right: auto;
-            color: #008037;  
-            font-weight: 500;
-            font-size: 12pt;
-        }
-        
-        button.login{
-            width: 20%;  
-            height: 30px;  
-            border: none;  
-            border-radius: 5px;  
-            color: #008037;  
-            border: 1px solid #008037; 
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 17px; 
-            cursor: pointer;
-            margin-top: 20px;
         }
     }
 }

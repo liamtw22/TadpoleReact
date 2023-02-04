@@ -1,5 +1,5 @@
 import React from 'react'; 
-import "./register.scss";
+import "./contact.scss";
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -7,14 +7,14 @@ import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 
 
-const Register = () => {
+const Contact = () => {
   return (
-    <div className="register">
+    <div className="contact">
     <Navbar/>
         <div className="text">
-            <h1>Welcome to Tadpole</h1>
+            <h1>How Can We Help?</h1>
         </div>
-        <div className="loginbox">   
+        <div className="contactbox">   
             <form>
               <table>
                 <tr className="names">
@@ -22,19 +22,17 @@ const Register = () => {
                   <td><input type="text" placeholder="Last Name"/></td>
                 </tr>
                 <tr>
-                  <td colspan="2"><input type="text" placeholder="Username"/></td>
+                  <td colspan="2"><input type="text" placeholder="Email Address"/></td>
                 </tr>
                 <tr>
-                  <td colspan="2"><input type="password" placeholder="Password"/></td>
+                  <td colspan="2"><input class="message" type="password" placeholder="Message"/></td>
                 </tr>
               </table>
-            <button>Join Now</button>
+            <button>Send</button>
             </form>  
-            <h3>Already have an account?</h3>
-            <NavLink to="/login" style={{ textDecoration: "none", color: "#008037"}}><button className="login">Sign In</button></NavLink>
         </div>
         <Footer/>
     </div>
   );
 };
-export default Register;
+export default Contact;

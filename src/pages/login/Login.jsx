@@ -22,7 +22,7 @@ const Login = () => {
                 <button>Login</button>
             </form>  
             <h3>Don't have an account?</h3>
-            <button className="register">Register</button>
+            <NavLink to="/register" style={{ textDecoration: "none", color: "#008037"}}><button className="register">Register</button></NavLink>
         </div>
         <Footer/>
     </div> 

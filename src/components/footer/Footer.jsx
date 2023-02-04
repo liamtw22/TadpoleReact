@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="right">
           <h3>Support</h3> 
-          <h3>Contact Us</h3>
+          <h3><NavLink to="/contact" style={{ textDecoration: "none", color: "#008037"}}>Contact Us</NavLink></h3>
           <h3><NavLink to="/mission" style={{ textDecoration: "none", color: "#008037"}}>Mission</NavLink></h3>
         </div>
       </div>
