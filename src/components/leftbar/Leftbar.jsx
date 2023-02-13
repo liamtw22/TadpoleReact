@@ -11,13 +11,12 @@ import support from '../../assets/support.svg';
 const Leftbar = () => {
   return (
     <div className="leftbar">
-        <ul>
-        <li><NavLink to="/home" style={{ textDecoration: "none", color: "#008037"}}><img src={jobs}/></NavLink></li>
-        <li><NavLink to="/home" style={{ textDecoration: "none" , color: "#008037"}}><img src={messages}/></NavLink></li>
-        <li><NavLink to="/notifications" style={{ textDecoration: "none", color: "#008037"}}><img src={network}/></NavLink></li>
-        <li><NavLink to="/profile" style={{ textDecoration: "none", color: "#008037"}}><img src={support}/></NavLink></li>
-        <li><h3>©Tadpole, Inc. 2022.<br/>Leap Forward.</h3></li>
-        </ul>
+        <button>+</button>
+        <NavLink to="/home" style={{ textDecoration: "none"}}><img src={jobs}/></NavLink>
+        <NavLink to="/home" style={{ textDecoration: "none"}}><img src={messages}/></NavLink>
+        <NavLink to="/notifications" style={{ textDecoration: "none"}}><img src={network}/></NavLink>
+        <NavLink to="/profile" style={{ textDecoration: "none"}}><img src={support}/></NavLink>
+        <h3>©Tadpole, Inc. 2022.<br/>Leap Forward.</h3>
     </div>
   );
 };
